@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ navItems }) => {
     <header className="fixed w-full bg-white bg-opacity-90 backdrop-blur-sm z-10 shadow-sm">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-xl font-bold text-blue-600">张伟</div>
+          <div className="text-xl font-bold text-blue-600">您的姓名</div>
           
           <nav className="hidden md:block">
             <ul className="flex space-x-8">

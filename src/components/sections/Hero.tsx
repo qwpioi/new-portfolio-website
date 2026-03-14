@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ personalInfo }) => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
-              你好，我是 <span className="text-blue-600">{personalInfo.name}</span>
+              欢迎来到我的作品集
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
               {personalInfo.title}

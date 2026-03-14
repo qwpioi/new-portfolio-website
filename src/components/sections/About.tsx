@@ -20,7 +20,7 @@ const About: React.FC<AboutProps> = ({ personalInfo }) => {
           </div>
           
           <div className="md:w-3/5">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">我是 {personalInfo.name}</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-4">我是您的姓名</h3>
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               {personalInfo.bio}
             </p>
